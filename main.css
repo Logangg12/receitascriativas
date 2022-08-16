@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+
+#menu-h {
+    background-color: black;
+}
+
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 20;
+
+}
+
+#menu-h ul li {
+    display: inline;
+
+}
+
+#menu-h ul li a {
+    color: rgb(255, 254, 254);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 24, 173);
+
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: blue;
+
+
+}
+
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 35px;
+    height: 70px;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/setinha.png');
+    top: 45%;
+    left: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 35px;
+    height: 70px;
+    z-index: 9;
+    position: absolute;
+    background-image: url('../img/seta2.png');
+    top: 45%;
+    right: 0;
+
+
+}
+
+
+.slider-principal {
+    width: 100% !important;
+
+}
+
+ul.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+
+ul.slick-dots li.stick-active {
+    background-color: #00bac6;
+
+}
+
+.slick-list {
+    width: 100% !important;
+
+
+}
+
+.slick-initialized {
+    overflow: hidden;
+
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #fffff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 900px;
+
+
+
+}
+
+li.slick-active button {
+    background-color: #00bac6;
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+
+
+}
+
+.texto-destaque p {
+    text-align: center;
+
+
+
+}
+
+
+
+.texto-destaque p {
+    color: black;
+
+
+
+
+
+
+}
